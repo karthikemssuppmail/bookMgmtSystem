@@ -4,12 +4,60 @@
 BOOK MANAGEMENT SYSTEM
        - DRAFT VERSION 1.0
          - KARTHIKEYAN
+##  Objective : 
+Build an e-Books Collection Management Solutions
+
+## Problem Statement:
+The current challenge is to create a system that enables seamless management of books in a repository. This includes fundamental CRUD (Create,
+Read, Update, Delete) operations while ensuring a user-friendly interface and robust backend support. The solution must also be deployable in modern,
+scalable environments, catering to the needs of developers, users, and administrators
          
-## ARCHITECTURE DIAGRAM
+## Architecure Diagram :
  
 ![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/architecture.png)
- 
- 
+
+## Cloud Native Architecture 
+![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/cloud-native-solutions.png)
+
+# High-Level Architecture:
+
+### Frontend (ReactJS):
+UI Layer: Users interact with the frontend built using ReactJS. It communicates with the backend (NodeJS) via API requests.
+React Router: Manages routing for different pages such as book listings, adding books, editing details, etc.
+Axios/Fetch: Used for making HTTP requests to the backend APIs.
+Backend (NodeJS):
+
+### API Layer: 
+The NodeJS backend serves RESTful APIs for various CRUD operations, such as adding books, updating book information, and deleting records.
+Express.js: The framework used to handle the API routing and requests.
+Authentication & Authorization: JWT-based authentication or any other method is used for securing user access and managing roles (admin/user).
+Database (AWS RDS):
+
+### RDS Instance: 
+AWS RDS (Relational Database Service) hosts the database (MySQL/PostgreSQL).
+Data Layer: Stores the book details, user information, and other metadata.
+Scalable and Fault-tolerant: The database should be scalable based on user traffic.
+
+### Container Platform (AWS ECS/Fargate):
+AWS ECS (Elastic Container Service) or AWS Fargate manages the backend services (NodeJS) in containers.
+Containerization: Backend API services are containerized using Docker and deployed on ECS/Fargate for scalability, fault tolerance, and high availability.
+
+### CI/CD Pipeline: 
+Continuous Integration/Continuous Deployment via services like AWS CodePipeline or GitHub Actions to automate deployments.
+
+### AWS Load Balancer:
+
+Distributes incoming HTTP/HTTPS requests to different instances of the containerized backend (NodeJS) to ensure high availability and fault tolerance.
+Cloud Infrastructure:
+
+###  VPC (Virtual Private Cloud):
+A secure network where all components (ReactJS, NodeJS, RDS, and ECS) communicate.
+Security Groups: Controls access and limits traffic to and from the services.
+IAM (Identity Access Management): Manages roles and permissions for different AWS services.
+S3 Bucket (Optional):
+
+If you plan to store and serve book covers or other media files, you can use AWS S3 to handle file storage.
+
 # PROPOSED SOLUTIONS..
 ### 1. Front-End (User Interface)
 The front-end of the system will be developed using ReactJS, allowing for a dynamic and responsive user interface.
