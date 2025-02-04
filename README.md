@@ -19,6 +19,10 @@ scalable environments, catering to the needs of developers, users, and administr
 ## Cloud Native Architecture 
 ![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/cloud-native-solutions.png)
 
+## Container Architecture
+![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/Container Architecture.jpeg)
+
+
 # High-Level Architecture:
 
 ### Frontend (ReactJS):
