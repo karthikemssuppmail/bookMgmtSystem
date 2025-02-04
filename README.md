@@ -20,7 +20,7 @@ scalable environments, catering to the needs of developers, users, and administr
 ![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/cloud-native-solutions.png)
 
 ## Container Architecture
-![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/Container Architecture.jpeg)
+![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/ContainerArchitecture.jpg)
 
 
 # High-Level Architecture:
