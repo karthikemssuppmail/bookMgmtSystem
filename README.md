@@ -104,12 +104,12 @@ ensuring that the services remain highly available.
 Security will be a core aspect of the system, ensuring that user data is safe and protected. We will implement the
 following:
 
-     • Authentication & Authorization:
-       Use OAuth 2.0 and JWT tokens for user authentication and secure access control across the system
-     • Data Encryption:All sensitive user data will be encrypted both in transit (using HTTPS) and at rest (using
-       database-level encryption).
-     • Web Application Firewall (WAF):A WAF will be deployed to prevent unauthorized access and attacks like
-       cross-site scripting (XSS), SQL injection, and other malicious attacks.
+ • Authentication & Authorization:
+   Use OAuth 2.0 and JWT tokens for user authentication and secure access control across the system
+ • Data Encryption:All sensitive user data will be encrypted both in transit (using HTTPS) and at rest (using
+   database-level encryption).
+ • Web Application Firewall (WAF):A WAF will be deployed to prevent unauthorized access and attacks like
+   cross-site scripting (XSS), SQL injection, and other malicious attacks.
 
 ### 7. Reporting & Analytics
 The Reporting Service will integrate with AWS CloudWatch and other analytics tools to provide detailed insights into
