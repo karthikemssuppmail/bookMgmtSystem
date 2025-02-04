@@ -124,7 +124,7 @@ real-time.
 ![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/reportingtool.png)
 
 ## Value Added Features to be Considered 
-![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/ValueAddedFeatures.png)
+![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/ValueAddedlFeatures.png)
 
 ## DIFFERENCE BETWEEN CLIENT-SIDE RENDERING AND SERVER-SIDE RENDERING
  
