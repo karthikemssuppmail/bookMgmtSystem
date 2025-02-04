@@ -120,6 +120,9 @@ Real-Time Monitoring: Using CloudWatch, you can monitor system metrics, track er
 real-time.
 
 
+### Sample Dashboard
+![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/reportingtool.png)
+
 ## DIFFERENCE BETWEEN CLIENT-SIDE RENDERING AND SERVER-SIDE RENDERING
  
 Client-Side Rendering (CSR) means that the web page's content is loaded by the browser after the JavaScript
@@ -136,6 +139,9 @@ the page loads.
 In simple terms, CSR is like building the page in the browser using JavaScript after the initial load, while SSR is
 like getting a complete page from the server right away.
 
+## Value Added Features to be Considered 
+![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/ValueAddedFeatures.pnd)
+
 ## JUSTIFICATION OF TECHNOLOGY STACK
  
 The stack is carefully chosen to build a scalable, maintainable, and secure system. React and Node.js provide
@@ -144,6 +150,7 @@ UI and React Router help streamline UI development and routing. Redux helps mana
 state, while Passport.js handles secure user authentication. The cloud-native approach with Docker and
 Kubernetes ensures that the app is highly scalable and easy to deploy. All of this makes for an efficient and
 flexible system that can scale as your Book Management System grows.
+
 
 
  ## SAMPLE USECASE DIAGRAM
