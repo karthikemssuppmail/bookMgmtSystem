@@ -123,6 +123,9 @@ real-time.
 ### Sample Dashboard
 ![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/reportingtool.png)
 
+## Value Added Features to be Considered 
+![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/ValueAddedFeatures.png)
+
 ## DIFFERENCE BETWEEN CLIENT-SIDE RENDERING AND SERVER-SIDE RENDERING
  
 Client-Side Rendering (CSR) means that the web page's content is loaded by the browser after the JavaScript
@@ -138,9 +141,6 @@ page, the browser has to request the full HTML again from the server, which can 
 the page loads.
 In simple terms, CSR is like building the page in the browser using JavaScript after the initial load, while SSR is
 like getting a complete page from the server right away.
-
-## Value Added Features to be Considered 
-![Example Image](https://github.com/karthikemssuppmail/bookMgmtSystem/blob/main/ValueAddedFeatures.pnd)
 
 ## JUSTIFICATION OF TECHNOLOGY STACK
  
