@@ -106,8 +106,10 @@ following:
 
  • Authentication & Authorization:
    Use OAuth 2.0 and JWT tokens for user authentication and secure access control across the system
+   
  • Data Encryption:All sensitive user data will be encrypted both in transit (using HTTPS) and at rest (using
    database-level encryption).
+   
  • Web Application Firewall (WAF):A WAF will be deployed to prevent unauthorized access and attacks like
    cross-site scripting (XSS), SQL injection, and other malicious attacks.
 
